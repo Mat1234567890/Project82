@@ -1,6 +1,12 @@
 var Canvas= document.getElementById("myCanvas");
 ctx= Canvas.getContext("2d");
 
+var Enabled=true;
+function Radius_windowalert(){
+if(Enabled == true){window.alert("Enter the radius you want for your circle in the radius input box please");}
+Enabled=false;
+}
+
 var mouse_event="empty";
 var last_pos_x,last_pos_y;
 var color="black";
